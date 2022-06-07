@@ -20,6 +20,10 @@ public class BookController {
     })
     @GetMapping
     public String hello(){
+
+        String item = new String();
+        if(item == "TESTE")
+            return "";
         return "Hello Bookstore manager, I'm runnung a pull request example";
     }
 }
